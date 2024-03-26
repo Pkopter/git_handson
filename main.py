@@ -27,4 +27,7 @@ display(Dane)
 
 f = open("data.json")
 aha = json.load(f)
+f2 = open("data2.json")
+D2 = json.load(f2)
+aha.extend(D2)
 display(aha)
