@@ -1,6 +1,4 @@
-import json
-print("Git Handson")
-DATA = [
+[
     {
         "imie": "Kacper",
         "gatunek": "Homo sapiens",
@@ -17,14 +15,6 @@ DATA = [
         "imie": "Reksio",
         "gatunek": "pies",
         "waga": 6,
-        "wiek": 10,
-    },
+        "wiek": 10
+    }
 ]
-Dane = DATA
-def display(Dane):
-    print("Dane:", Dane)
-display(Dane)
-
-f = open("data.json")
-aha = json.load(f)
-display(aha)
