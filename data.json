@@ -1,5 +1,4 @@
-from pprint import pprint
-DATA = [
+[
     {
         "imie": "Kacper",
         "gatunek": "Homo sapiens",
@@ -16,10 +15,6 @@ DATA = [
         "imie": "Reksio",
         "gatunek": "pies",
         "waga": 6,
-        "wiek": 10,
-    },
+        "wiek": 10
+    }
 ]
-Dane = DATA
-def display(Dane):
-    pprint("Dane:", Dane)
-display(Dane)
